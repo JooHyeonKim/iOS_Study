@@ -133,29 +133,66 @@ default:
 }
 
 
-for i in 1...4{
-    print(i)
+var n=6
+repeat {
+    n+=2
+}while n<5
+
+print(n)
+
+
+//옵셔널 : 값이 있을 수도 있고 없을 수도 있다.
+//nil : 값이 없음.
+//옵셔널 타입으로 변수를 생성하려면 타입뒤에 ?를 붙이면 된다.
+
+var number: Int? = nil
+print(number)
+
+var name:String?
+
+var optionalName: String? = "Joohyeon"
+print(optionalName)
+
+//var Name:String = optionalName
+//Error! Value of optional type 'String?' must be unwrapped to a value of type 'String'
+
+//Optional("Joohyeon") 옵셔널로 포장되어있다. 이상태로는 다른 변수와 연산 불가.
+//옵셔널 바인딩 = 포장지를 뜯는 작업
+
+
+var num: Int? = 3
+print(num) //Optional(3)
+print(num!) //3
+
+
+//if let : 추출된 결과 result는 if문 내에서만 사용 가능
+if let result = num{  //result : optional에서 추출된 결과
+    print(result) //값 추출성공
+}else{ //값 추출실패
+    print("추출실패")
 }
 
-let array = [1,2,3,4,5]
-
-
-for i in array{
-    print(i)
+//guard문으로 optional binding
+func test(){
+    let number:Int? = 452
+    guard let result = number else { return }
+    print(result) //guard문을 사용하면 함수 전체에서 추출된 변수 사용 가능
 }
 
-var num = 5
+test()
 
-while num < 10 {
-    num+=1
+//명시적
+let value: Int? = 6
+
+if value == 6{ //옵셔널 해제
+    print("value가 6")
+}else{
+    print("6이 아니다.")
 }
 
-num
+//!: 묵시적 optional 해제
+let string = "12" //문자가 들어오게 되면 nil을 반환.
+let stringToInt:Int! = Int(string) //타입이 optional이어야함.
+print(stringToInt+1)
 
-var x = 6
 
-repeat{
-    x += 2
-}while x < 5
-
-print(x)

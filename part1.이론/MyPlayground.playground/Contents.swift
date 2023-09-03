@@ -81,13 +81,51 @@ var acc = Account()
 acc.credit = 1000
 
 
-class SomeClass {
+struct SomeStruct {
     var num:Int = 0
 }
 
-var c1 = SomeClass()
+var c1 = SomeStruct()
+c1.num = 10
 var c2 = c1
 
 c1.num = 100
 
 c2.num
+
+
+class Vehicle{
+    var currentSpeed = 0.0
+    var description:String {
+        return "Traveling at \(currentSpeed) miles per hour "
+    }
+
+    func makeNoise(){
+        print("speaker on")
+    }
+}
+
+class Bycicle : Vehicle{
+    var hasBasket = false
+    var gear = 2
+    override func makeNoise(){
+        super.makeNoise()
+        print("우당탕탕")
+    }
+    
+    override var currentSpeed: Double{
+        didSet{
+            gear = Int(currentSpeed/10)+1
+        }
+    }
+    
+    override var description: String {
+        return super.description + "with gear \(gear)"
+    }
+}
+
+var bycicle = Bycicle()
+bycicle.currentSpeed = 33.5
+bycicle.gear
+bycicle.description
+bycicle.makeNoise()

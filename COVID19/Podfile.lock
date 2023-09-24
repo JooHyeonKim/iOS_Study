@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (5.7.1)
+  - DGCharts (5.0.0):
+    - DGCharts/Core (= 5.0.0)
+  - DGCharts/Core (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DGCharts
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DGCharts
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  DGCharts: 6e0cf2644e8f81ad13f04caa8bc18502870a1c54
+
+PODFILE CHECKSUM: e31de14da7817ecfcb0dd740a47ea2bec26b7ced
+
+COCOAPODS: 1.12.1

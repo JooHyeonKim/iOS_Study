@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5AFBCC80-7DFB-4FB2-A060-3D2680C434FE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DED500D6-D637-442A-A64C-4CA4B04800CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drink/AlertListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "AlertListCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DED500D6-D637-442A-A64C-4CA4B04800CB - a6cf48ba50ac8b02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.merideimLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "DED500D6-D637-442A-A64C-4CA4B04800CB - c9442c87727e23f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.merideimLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "DED500D6-D637-442A-A64C-4CA4B04800CB - 3c1d399a3fdbe2c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.merideimLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "DED500D6-D637-442A-A64C-4CA4B04800CB - 8dbaaf2a3b7598fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.merideimLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "DED500D6-D637-442A-A64C-4CA4B04800CB - 3127c8a05dd460c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Drink.AlertListCell"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "DED500D6-D637-442A-A64C-4CA4B04800CB - 2e78325def841133"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Drink.AlertListCell&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAF8A084-FDA0-43F6-84BC-C3CE0ED4B342"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Drink/AlertListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AlertListCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EAF8A084-FDA0-43F6-84BC-C3CE0ED4B342 - a6cf48ba50ac8b02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.merideimLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "EAF8A084-FDA0-43F6-84BC-C3CE0ED4B342 - c9442c87727e23f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.merideimLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "EAF8A084-FDA0-43F6-84BC-C3CE0ED4B342 - 3c1d399a3fdbe2c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.merideimLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "EAF8A084-FDA0-43F6-84BC-C3CE0ED4B342 - 8dbaaf2a3b7598fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.merideimLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "EAF8A084-FDA0-43F6-84BC-C3CE0ED4B342 - 3127c8a05dd460c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Drink.AlertListCell"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "EAF8A084-FDA0-43F6-84BC-C3CE0ED4B342 - 2e78325def841133"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Drink.AlertListCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Drink.AlertListCell&gt;"
+                  moduleName = "Drink"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joohyun/Desktop/iOS_Study/iOS_Study/Drink/Drink/AlertListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

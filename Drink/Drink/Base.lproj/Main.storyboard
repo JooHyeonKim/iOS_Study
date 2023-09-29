@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TrL-zG-nYA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="U8B-1v-iOd">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -9,122 +9,115 @@
     </dependencies>
     <scenes>
         <!--물마시기-->
-        <scene sceneID="OH3-vI-Zpx">
+        <scene sceneID="tAr-m9-zI6">
             <objects>
-                <tableViewController storyboardIdentifier="AlertListViewController" id="Bqr-7s-rqD" customClass="AlertListViewController" customModule="Drink" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="3G3-8p-D5t">
+                <tableViewController storyboardIdentifier="AlertListViewController" id="uLh-Wq-dKQ" customClass="AlertListViewController" customModule="Drink" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="AlertListViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Qkd-Mz-knS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0zG-zS-tvl">
-                                <rect key="frame" x="0.0" y="38" width="393" height="43.666667938232422"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="luj-s9-h9o">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0zG-zS-tvl" id="HmB-My-gNp">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="luj-s9-h9o" id="lfy-5J-BBV">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="Bqr-7s-rqD" id="GlD-mb-49Y"/>
-                            <outlet property="delegate" destination="Bqr-7s-rqD" id="Rik-Nm-Tda"/>
+                            <outlet property="dataSource" destination="uLh-Wq-dKQ" id="4Z7-VY-gnk"/>
+                            <outlet property="delegate" destination="uLh-Wq-dKQ" id="9od-Fy-4qM"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="물마시기" id="5DT-xM-HeM">
-                        <barButtonItem key="rightBarButtonItem" title="Ite" image="plus" catalog="system" id="ZdU-n1-hre">
+                    <navigationItem key="navigationItem" title="물마시기" id="Ex8-fF-iQn">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="KGk-Gw-Tcn">
                             <connections>
-                                <action selector="addAlertButtonAction:" destination="Bqr-7s-rqD" id="8JT-cc-ihI"/>
+                                <action selector="addAlertButtonAction:" destination="uLh-Wq-dKQ" id="i9t-Nz-1yK"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1Mc-wf-pcZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfe-wJ-zuc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-916" y="-263"/>
+            <point key="canvasLocation" x="38" y="-128"/>
         </scene>
         <!--Add Alert View Controller-->
-        <scene sceneID="nsb-AO-hAQ">
+        <scene sceneID="HxY-Pp-B4F">
             <objects>
-                <viewController storyboardIdentifier="AddAlertViewController" id="UbD-3f-5tx" customClass="AddAlertViewController" customModule="Drink" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XVb-GT-MEu">
+                <viewController storyboardIdentifier="AddAlertViewController" id="8cg-3f-0aQ" customClass="AddAlertViewController" customModule="Drink" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="AddAlertViewController" id="IeK-iQ-tIN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2e-bV-vCd">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xkS-He-W4K">
                                 <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                                 <items>
-                                    <navigationItem title="알람추가" id="ige-z1-P6Q">
-                                        <barButtonItem key="leftBarButtonItem" title="취소" id="oAv-vS-Qnp">
+                                    <navigationItem title="알람 추가" id="dWe-2R-o9k">
+                                        <barButtonItem key="leftBarButtonItem" title="취소" id="cnD-J2-Jpp">
                                             <connections>
-                                                <action selector="dismissButtonTap:" destination="UbD-3f-5tx" id="meR-Xu-bgd"/>
+                                                <action selector="dismissButtonTapped:" destination="8cg-3f-0aQ" id="lVH-VH-Upg"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="저장" id="r6M-AW-Jtm">
+                                        <barButtonItem key="rightBarButtonItem" title="저장" id="5GH-0l-WLY">
                                             <connections>
-                                                <action selector="saveButtonTap:" destination="UbD-3f-5tx" id="OGG-R1-1Xc"/>
+                                                <action selector="saveButtonTapped:" destination="8cg-3f-0aQ" id="Qka-yB-bYl"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="111" translatesAutoresizingMaskIntoConstraints="NO" id="Q3U-yE-Kh4">
-                                <rect key="frame" x="20" y="111" width="353" height="50"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="p30-oe-f1f">
+                                <rect key="frame" x="12" y="111" width="369" height="111"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="시간" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bF-RK-jPa">
-                                        <rect key="frame" x="0.0" y="0.0" width="132" height="50"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oev-xj-roc">
+                                        <rect key="frame" x="0.0" y="0.0" width="184.66666666666666" height="111"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="8vY-CP-UT1">
-                                        <rect key="frame" x="243" y="0.0" width="110" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="110" id="OKm-JA-wkJ"/>
-                                            <constraint firstAttribute="height" constant="50" id="ToS-wK-ZFx"/>
-                                        </constraints>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="cPC-iV-ZPM">
+                                        <rect key="frame" x="184.66666666666663" y="0.0" width="184.33333333333337" height="111"/>
                                         <locale key="locale" localeIdentifier="ko_KR"/>
                                     </datePicker>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="8vY-CP-UT1" firstAttribute="centerY" secondItem="3bF-RK-jPa" secondAttribute="centerY" id="gf7-ct-NAf"/>
-                                </constraints>
                             </stackView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="IoP-Hn-TUP"/>
+                        <viewLayoutGuide key="safeArea" id="jdd-kP-l1k"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="d2e-bV-vCd" firstAttribute="top" secondItem="IoP-Hn-TUP" secondAttribute="top" id="H0T-v8-Vik"/>
-                            <constraint firstItem="Q3U-yE-Kh4" firstAttribute="top" secondItem="d2e-bV-vCd" secondAttribute="bottom" constant="8" id="PcC-Za-5Av"/>
-                            <constraint firstItem="Q3U-yE-Kh4" firstAttribute="leading" secondItem="IoP-Hn-TUP" secondAttribute="leading" constant="20" id="ZLR-sQ-Gw6"/>
-                            <constraint firstItem="d2e-bV-vCd" firstAttribute="trailing" secondItem="IoP-Hn-TUP" secondAttribute="trailing" id="gRc-Bw-ybr"/>
-                            <constraint firstItem="IoP-Hn-TUP" firstAttribute="trailing" secondItem="Q3U-yE-Kh4" secondAttribute="trailing" constant="20" id="kSV-t7-D1O"/>
-                            <constraint firstItem="d2e-bV-vCd" firstAttribute="leading" secondItem="IoP-Hn-TUP" secondAttribute="leading" id="nm4-zq-zpM"/>
+                            <constraint firstItem="p30-oe-f1f" firstAttribute="top" secondItem="xkS-He-W4K" secondAttribute="bottom" constant="8" id="41O-L1-EBO"/>
+                            <constraint firstItem="jdd-kP-l1k" firstAttribute="trailing" secondItem="p30-oe-f1f" secondAttribute="trailing" constant="12" id="djb-du-Pfb"/>
+                            <constraint firstItem="xkS-He-W4K" firstAttribute="trailing" secondItem="jdd-kP-l1k" secondAttribute="trailing" id="gtw-5b-Hw7"/>
+                            <constraint firstItem="xkS-He-W4K" firstAttribute="top" secondItem="jdd-kP-l1k" secondAttribute="top" id="h7E-Zo-a8b"/>
+                            <constraint firstItem="p30-oe-f1f" firstAttribute="leading" secondItem="jdd-kP-l1k" secondAttribute="leading" constant="12" id="ikI-AA-lPi"/>
+                            <constraint firstItem="xkS-He-W4K" firstAttribute="leading" secondItem="jdd-kP-l1k" secondAttribute="leading" id="qmg-pa-t2R"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="datePicker" destination="8vY-CP-UT1" id="ko9-YF-tzN"/>
+                        <outlet property="datePicker" destination="cPC-iV-ZPM" id="pDv-id-NLa"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ame-Ne-0LQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zx6-Wv-u55" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-115.26717557251908" y="-263.38028169014086"/>
+            <point key="canvasLocation" x="901.52671755725191" y="-122.53521126760565"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="T1o-fs-vgR">
+        <scene sceneID="er1-AE-szI">
             <objects>
-                <navigationController id="TrL-zG-nYA" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Gy7-mb-Pnp">
+                <navigationController id="U8B-1v-iOd" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="8Fg-QI-0HV">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="Bqr-7s-rqD" kind="relationship" relationship="rootViewController" id="c7F-WT-FTb"/>
+                        <segue destination="uLh-Wq-dKQ" kind="relationship" relationship="rootViewController" id="W65-he-Tte"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cuT-Eq-3uw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rxy-dM-aNF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1819" y="-263"/>
+            <point key="canvasLocation" x="-868" y="-128"/>
         </scene>
     </scenes>
     <resources>

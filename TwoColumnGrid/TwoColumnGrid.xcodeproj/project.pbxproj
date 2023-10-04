@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9990703C2ACCF59500258ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990703B2ACCF59500258ED8 /* AppDelegate.swift */; };
+		9990703E2ACCF59500258ED8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990703D2ACCF59500258ED8 /* SceneDelegate.swift */; };
+		999070402ACCF59500258ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990703F2ACCF59500258ED8 /* ViewController.swift */; };
+		999070432ACCF59500258ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 999070412ACCF59500258ED8 /* Main.storyboard */; };
+		999070452ACCF59500258ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 999070442ACCF59500258ED8 /* Assets.xcassets */; };
+		999070482ACCF59500258ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 999070462ACCF59500258ED8 /* LaunchScreen.storyboard */; };
+		999070532ACCF59500258ED8 /* TwoColumnGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999070522ACCF59500258ED8 /* TwoColumnGridTests.swift */; };
+		9990705D2ACCF59500258ED8 /* TwoColumnGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990705C2ACCF59500258ED8 /* TwoColumnGridUITests.swift */; };
+		9990705F2ACCF59500258ED8 /* TwoColumnGridUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990705E2ACCF59500258ED8 /* TwoColumnGridUITestsLaunchTests.swift */; };
+		9990706D2ACCF5E900258ED8 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990706B2ACCF5E900258ED8 /* TextCell.swift */; };
+		999070712ACCFAF500258ED8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990706F2ACCFAF500258ED8 /* Cell.swift */; };
+		999070722ACCFAF500258ED8 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999070702ACCFAF500258ED8 /* Cell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9990704F2ACCF59500258ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 999070302ACCF59500258ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 999070372ACCF59500258ED8;
+			remoteInfo = TwoColumnGrid;
+		};
+		999070592ACCF59500258ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 999070302ACCF59500258ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 999070372ACCF59500258ED8;
+			remoteInfo = TwoColumnGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		999070382ACCF59500258ED8 /* TwoColumnGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoColumnGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9990703B2ACCF59500258ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9990703D2ACCF59500258ED8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9990703F2ACCF59500258ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		999070422ACCF59500258ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		999070442ACCF59500258ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		999070472ACCF59500258ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		999070492ACCF59500258ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9990704E2ACCF59500258ED8 /* TwoColumnGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoColumnGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		999070522ACCF59500258ED8 /* TwoColumnGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnGridTests.swift; sourceTree = "<group>"; };
+		999070582ACCF59500258ED8 /* TwoColumnGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoColumnGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9990705C2ACCF59500258ED8 /* TwoColumnGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnGridUITests.swift; sourceTree = "<group>"; };
+		9990705E2ACCF59500258ED8 /* TwoColumnGridUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnGridUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9990706B2ACCF5E900258ED8 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		9990706F2ACCFAF500258ED8 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		999070702ACCFAF500258ED8 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		999070352ACCF59500258ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9990704B2ACCF59500258ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999070552ACCF59500258ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9990702F2ACCF59500258ED8 = {
+			isa = PBXGroup;
+			children = (
+				9990703A2ACCF59500258ED8 /* TwoColumnGrid */,
+				999070512ACCF59500258ED8 /* TwoColumnGridTests */,
+				9990705B2ACCF59500258ED8 /* TwoColumnGridUITests */,
+				999070392ACCF59500258ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		999070392ACCF59500258ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				999070382ACCF59500258ED8 /* TwoColumnGrid.app */,
+				9990704E2ACCF59500258ED8 /* TwoColumnGridTests.xctest */,
+				999070582ACCF59500258ED8 /* TwoColumnGridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9990703A2ACCF59500258ED8 /* TwoColumnGrid */ = {
+			isa = PBXGroup;
+			children = (
+				9990703B2ACCF59500258ED8 /* AppDelegate.swift */,
+				9990703D2ACCF59500258ED8 /* SceneDelegate.swift */,
+				9990703F2ACCF59500258ED8 /* ViewController.swift */,
+				999070412ACCF59500258ED8 /* Main.storyboard */,
+				999070442ACCF59500258ED8 /* Assets.xcassets */,
+				999070462ACCF59500258ED8 /* LaunchScreen.storyboard */,
+				999070492ACCF59500258ED8 /* Info.plist */,
+				9990706B2ACCF5E900258ED8 /* TextCell.swift */,
+				9990706F2ACCFAF500258ED8 /* Cell.swift */,
+				999070702ACCFAF500258ED8 /* Cell.xib */,
+			);
+			path = TwoColumnGrid;
+			sourceTree = "<group>";
+		};
+		999070512ACCF59500258ED8 /* TwoColumnGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				999070522ACCF59500258ED8 /* TwoColumnGridTests.swift */,
+			);
+			path = TwoColumnGridTests;
+			sourceTree = "<group>";
+		};
+		9990705B2ACCF59500258ED8 /* TwoColumnGridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9990705C2ACCF59500258ED8 /* TwoColumnGridUITests.swift */,
+				9990705E2ACCF59500258ED8 /* TwoColumnGridUITestsLaunchTests.swift */,
+			);
+			path = TwoColumnGridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		999070372ACCF59500258ED8 /* TwoColumnGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 999070622ACCF59500258ED8 /* Build configuration list for PBXNativeTarget "TwoColumnGrid" */;
+			buildPhases = (
+				999070342ACCF59500258ED8 /* Sources */,
+				999070352ACCF59500258ED8 /* Frameworks */,
+				999070362ACCF59500258ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoColumnGrid;
+			productName = TwoColumnGrid;
+			productReference = 999070382ACCF59500258ED8 /* TwoColumnGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9990704D2ACCF59500258ED8 /* TwoColumnGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 999070652ACCF59500258ED8 /* Build configuration list for PBXNativeTarget "TwoColumnGridTests" */;
+			buildPhases = (
+				9990704A2ACCF59500258ED8 /* Sources */,
+				9990704B2ACCF59500258ED8 /* Frameworks */,
+				9990704C2ACCF59500258ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				999070502ACCF59500258ED8 /* PBXTargetDependency */,
+			);
+			name = TwoColumnGridTests;
+			productName = TwoColumnGridTests;
+			productReference = 9990704E2ACCF59500258ED8 /* TwoColumnGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		999070572ACCF59500258ED8 /* TwoColumnGridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 999070682ACCF59500258ED8 /* Build configuration list for PBXNativeTarget "TwoColumnGridUITests" */;
+			buildPhases = (
+				999070542ACCF59500258ED8 /* Sources */,
+				999070552ACCF59500258ED8 /* Frameworks */,
+				999070562ACCF59500258ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9990705A2ACCF59500258ED8 /* PBXTargetDependency */,
+			);
+			name = TwoColumnGridUITests;
+			productName = TwoColumnGridUITests;
+			productReference = 999070582ACCF59500258ED8 /* TwoColumnGridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		999070302ACCF59500258ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					999070372ACCF59500258ED8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9990704D2ACCF59500258ED8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 999070372ACCF59500258ED8;
+					};
+					999070572ACCF59500258ED8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 999070372ACCF59500258ED8;
+					};
+				};
+			};
+			buildConfigurationList = 999070332ACCF59500258ED8 /* Build configuration list for PBXProject "TwoColumnGrid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9990702F2ACCF59500258ED8;
+			productRefGroup = 999070392ACCF59500258ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				999070372ACCF59500258ED8 /* TwoColumnGrid */,
+				9990704D2ACCF59500258ED8 /* TwoColumnGridTests */,
+				999070572ACCF59500258ED8 /* TwoColumnGridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		999070362ACCF59500258ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999070482ACCF59500258ED8 /* LaunchScreen.storyboard in Resources */,
+				999070722ACCFAF500258ED8 /* Cell.xib in Resources */,
+				999070452ACCF59500258ED8 /* Assets.xcassets in Resources */,
+				999070432ACCF59500258ED8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9990704C2ACCF59500258ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999070562ACCF59500258ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		999070342ACCF59500258ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999070402ACCF59500258ED8 /* ViewController.swift in Sources */,
+				9990703C2ACCF59500258ED8 /* AppDelegate.swift in Sources */,
+				999070712ACCFAF500258ED8 /* Cell.swift in Sources */,
+				9990706D2ACCF5E900258ED8 /* TextCell.swift in Sources */,
+				9990703E2ACCF59500258ED8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9990704A2ACCF59500258ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999070532ACCF59500258ED8 /* TwoColumnGridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		999070542ACCF59500258ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9990705D2ACCF59500258ED8 /* TwoColumnGridUITests.swift in Sources */,
+				9990705F2ACCF59500258ED8 /* TwoColumnGridUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		999070502ACCF59500258ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 999070372ACCF59500258ED8 /* TwoColumnGrid */;
+			targetProxy = 9990704F2ACCF59500258ED8 /* PBXContainerItemProxy */;
+		};
+		9990705A2ACCF59500258ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 999070372ACCF59500258ED8 /* TwoColumnGrid */;
+			targetProxy = 999070592ACCF59500258ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		999070412ACCF59500258ED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				999070422ACCF59500258ED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		999070462ACCF59500258ED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				999070472ACCF59500258ED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		999070602ACCF59500258ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		999070612ACCF59500258ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		999070632ACCF59500258ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwoColumnGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.TwoColumnGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		999070642ACCF59500258ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwoColumnGrid/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.TwoColumnGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		999070662ACCF59500258ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.TwoColumnGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoColumnGrid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwoColumnGrid";
+			};
+			name = Debug;
+		};
+		999070672ACCF59500258ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.TwoColumnGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoColumnGrid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwoColumnGrid";
+			};
+			name = Release;
+		};
+		999070692ACCF59500258ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.TwoColumnGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoColumnGrid;
+			};
+			name = Debug;
+		};
+		9990706A2ACCF59500258ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = judy.TwoColumnGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoColumnGrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		999070332ACCF59500258ED8 /* Build configuration list for PBXProject "TwoColumnGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999070602ACCF59500258ED8 /* Debug */,
+				999070612ACCF59500258ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999070622ACCF59500258ED8 /* Build configuration list for PBXNativeTarget "TwoColumnGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999070632ACCF59500258ED8 /* Debug */,
+				999070642ACCF59500258ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999070652ACCF59500258ED8 /* Build configuration list for PBXNativeTarget "TwoColumnGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999070662ACCF59500258ED8 /* Debug */,
+				999070672ACCF59500258ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		999070682ACCF59500258ED8 /* Build configuration list for PBXNativeTarget "TwoColumnGridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999070692ACCF59500258ED8 /* Debug */,
+				9990706A2ACCF59500258ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 999070302ACCF59500258ED8 /* Project object */;
+}

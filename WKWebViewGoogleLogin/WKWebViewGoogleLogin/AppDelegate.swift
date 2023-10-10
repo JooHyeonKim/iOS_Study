@@ -1,14 +1,15 @@
 //
 //  AppDelegate.swift
-//  WKWebView
+//  WKWebViewGoogleLogin
 //
-//  Created by 김주현 on 2023/10/06.
+//  Created by 김주현 on 2023/10/10.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

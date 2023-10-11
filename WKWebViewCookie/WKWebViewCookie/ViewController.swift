@@ -76,14 +76,6 @@ extension ViewController: WKNavigationDelegate {
   func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
     print("Failed to load WebView : \(error.localizedDescription)")
   }
-  
-  ///서버 리디렉션: 웹 페이지 요청 후 서버가 다른 페이지로 리디렉션하는 경우
-  ///
-  func webView(_ webView: WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WKNavigation!) {
-    if let url = webView.url, url.absoluteString.starts(with: "https://thomeinc.cafe24.com/skin-skin2/api/member/Oauth2ClientLogin/googleplus/?mapping_doing=undefined") {
-      UIApplication.shared.open(url, options: [:])
-    }
-  }
 
   func checkLogiinStatusFromCookies(_ cookies: [HTTPCookie]) -> Bool {
     /// 여기에서 쿠키를 분석하여 로그인 상태를 확인
